@@ -1,3 +1,21 @@
+       
+//Miles' Homework
+//Write a function that takes in an array and 
+//replaces all the odd values with "O".
+var skittles = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9];
+var oddFinder = function (arr) {
+var myArray = [];
+    for (var i = 0; i < arr.length; i++) {
+        if (arr[i] % 2 === 1) {
+            arr[i] = "O";
+            }
+    }
+        return arr;
+};
+        
+    console.log(oddFinder(skittles));
+
+
 //Once you complete a problem, open up Chrome and check the answer in the console.
 
 
